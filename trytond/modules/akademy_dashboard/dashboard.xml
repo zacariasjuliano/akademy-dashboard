@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!-- This file is part of SAGE Education.   The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<tryton>
+    <data>         
+        <menuitem name="Configurações" id="akademy_configuration" sequence="90"
+            parent="akademy_base_module" icon="tryton-settings"/>
+
+        <record model="ir.ui.view" id="dashboard_action_view_form">
+            <field name="model">dashboard.action</field>
+            <field name="type">form</field>
+            <field name="name">action_form</field>
+        </record>
+
+        <record model="ir.ui.view" id="dashboard_action_view_list">
+            <field name="model">dashboard.action</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="10"/>
+            <field name="name">action_tree</field>
+        </record>
+        <record model="ir.action.act_window" id="act_dashboard_action">
+            <field name="name">Dashboard</field>
+            <field name="res_model">dashboard.action</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_dashboard_action_view_form">
+            <field name="sequence" eval="5"/>
+            <field name="view" ref="dashboard_action_view_form"/>
+            <field name="act_window" ref="act_dashboard_action"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_dashboard_action_view_list">
+            <field name="sequence" eval="4"/>
+            <field name="view" ref="dashboard_action_view_list"/>
+            <field name="act_window" ref="act_dashboard_action"/>
+        </record>
+        <menuitem name="Dashboard" id="akademy_dashboard_action" sequence="3"
+            parent="akademy_configuration" action="act_dashboard_action"/> 
+
+    </data>
+</tryton>

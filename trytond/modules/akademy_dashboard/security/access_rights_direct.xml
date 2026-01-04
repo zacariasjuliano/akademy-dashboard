@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- This file is part of SAGE Education.   The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<!-- GROUP OF PERMISSIONS FOR DIRECTIONAL USERS -->
+<tryton>
+    <data>
+        <!-- Access to the DASHBOARD MENU -->
+        <record model="ir.ui.menu-res.group" 
+            id="akademy_dashboard-group_akademy_direc">
+            <field name="menu" ref="akademy_configuration"/>
+            <field name="group" ref="akademy_party.group_akademy_direc"/>
+        </record>            
+    </data>
+</tryton >

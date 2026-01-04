@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- This file is part of SAGE Education.   The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<tryton>
+    <data>        
+        <menuitem name="SAGE" id="akademy_base_module" sequence="1"/>
+
+        <menuitem name="Gestão Entidades" parent="akademy_base_module" id="akademy_party.akademy_party" 
+            icon="tryton-party" sequence="3"/>
+
+        <menuitem name="Gestão Pedagogica" parent="akademy_base_module" id="akademy_classe.akademy_ga" 
+            sequence="6"/> 
+    </data>
+</tryton>

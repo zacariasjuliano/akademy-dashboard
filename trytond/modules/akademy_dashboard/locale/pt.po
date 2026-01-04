@@ -1,0 +1,19 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "model:ir.ui.menu,name:akademy_base_module"
+msgid "SAGE"
+msgstr "SAGE"
+
+msgctxt "model:ir.ui.menu,name:akademy_configuration"
+msgid "Configurações"
+msgstr "Configurações"
+
+msgctxt "model:ir.ui.menu,name:akademy_dashboard_action"
+msgid "Dashboard"
+msgstr "Painel"
+
+msgctxt "model:ir.action,name:act_dashboard_action"
+msgid "Dashboard"
+msgstr "Painel"
