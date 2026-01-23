@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "akademy_dashboard"
-version = "1.0.1"
+version = "1.1.0"
 description = "SAGE Education is a free and open-source project for educators, educational institutions, and governments."
 authors = [
     { name = "Zacarias Juliano Capingala", email = "zacariasjuliano@gmail.com" }
@@ -14,8 +14,8 @@ requires-python = ">=3.8"
 license = { text = "GPL-3.0-or-later" }
 keywords = ["education", "SGA", "SGE", "SIE", "sage-edu", "school"]
 dependencies = [
-    "akademy_classe~=1.0.4",
-    "trytond-dashboard==6.8.0",
+    "akademy_classe~=1.1.0",
+    "trytond-dashboard==7.0.0",
 ]
 
 [project.urls]
