@@ -1,8 +1,7 @@
 # 🏫 SAGE Education - Institutional Management / ERP
 
-**Version:** 1.2.x  
-**Module:** Akademy Dashboard  
-**Developer:** Zacarias Juliano Capingala   
+**Module:** Akademy Dashboard   
+**Version:** 7.0.x        
 
 
 ---
@@ -78,8 +77,8 @@ It is essential for **all users of SAGE Education**, ensuring a seamless and pro
 ### 🌐 Homepage
   
 **Website:** [sage-edu.comunidadedosaber.ao](https://sage-edu.comunidadedosaber.ao)  
-**App:** [sage.comunidadedosaber.ao](https://sage-edu.comunidadedosaber.ao)  
-**Docs:** [docs.comunidadedosaber.ao](https://sage-edu.comunidadedosaber.ao)  
+**App:** [sage.comunidadedosaber.ao](https://sage.comunidadedosaber.ao)  
+**Docs:** [docs.comunidadedosaber.ao](https://docs.comunidadedosaber.ao)  
 **Team:** [comunidadedosaber.ao](https://comunidadedosaber.ao)  
 **PyPi:** [SAGE Edu](https://pypi.org/user/comunidade_do_saber)
 
